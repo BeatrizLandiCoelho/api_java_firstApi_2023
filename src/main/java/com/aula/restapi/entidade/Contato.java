@@ -1,3 +1,4 @@
+//_____________________________________________________________________________________________________________
 // Pacote que contém a classe Contato
 package com.aula.restapi.entidade;
 
@@ -9,6 +10,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+//________________________________________________________________________________________________________________
 // Definição da classe Contato como uma entidade persistente (será mapeada para uma tabela no banco de dados)
 //um objeto persistente pode ser amarzenado e recuperado de maniera duradoura as alteracoes dele aqui sao relfetidas
 //no banco de dados e vice versa
@@ -88,3 +90,4 @@ public class Contato {
         this.urlAvatar = urlAvatar;
     }
 }
+//___________________________________________________________________________________________________________
